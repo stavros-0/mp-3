@@ -37,7 +37,7 @@ export default function Experiences() {
     return (
         <>
             <ProfileContainer>
-                <img src={`images/Lemma Legal.svg`} alt={`Lemma Legal`}/>
+                <img src={`public/Lemma Legal.svg`} alt={`Lemma Legal`}/>
                 <ImageText>
                     <p>I am currently working at Lemma Legal, which is a legal tech company. I began working for the
                         company
@@ -46,7 +46,7 @@ export default function Experiences() {
                 </ImageText>
             </ProfileContainer>
             <ProfileContainer>
-                <img src={`images/slab.jpg`} alt={`SlabStox`}/>
+                <img src={`public/slab.jpg`} alt={`SlabStox`}/>
                 <ImageText>
                     <p>I also work for a social media brand where I generate graphics and content for their daily
                         newsletter.</p>

@@ -67,7 +67,7 @@ export default function Projects() {
                 <p>write their own blog, and explore blogs from the explore page.</p>
         </ImageText>
         <ProfileContainer>
-            <img src={`images/Screenshot%202024-09-20%20at%2010.21.39%E2%80%AFAM.png`} alt={`Blog`}/>
+            <img src={`public/Screenshot%202024-09-20%20at%2010.21.39%E2%80%AFAM.png`} alt={`Blog`}/>
         </ProfileContainer>
         </>
     )

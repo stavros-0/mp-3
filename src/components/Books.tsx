@@ -41,7 +41,7 @@ export default function Books() {
         <>
 
             <ProfileContainer>
-                <img src={`images/snowball.jpg`} alt={"Snowball"}/>
+                <img src={`public/snowball.jpg`} alt={"Snowball"}/>
                 <ImageText>
                     <p>Snowball by Alice Shroeder is an 832 page book that goes through the life of Warren Buffett.</p>
                     <p>Buffett is regarded as the best investor by most people interested in the financial world.</p>
@@ -54,7 +54,7 @@ export default function Books() {
                 </ImageText>
             </ProfileContainer>
             <ProfileContainer>
-                <img src={`images/investor.webp`} alt={"The Intelligent Investor"}/>
+                <img src={`public/investor.webp`} alt={"The Intelligent Investor"}/>
                 <ImageText>
                     <p>The Intelligent Investor is another long book that goes into detail the investing strategy of
                         Benjamin Graham.</p>
@@ -69,7 +69,7 @@ export default function Books() {
                 </ImageText>
             </ProfileContainer>
             <ProfileContainer>
-                <img src={`images/door.png`} alt={"Third Door"}/>
+                <img src={`public/door.png`} alt={"Third Door"}/>
                 <ImageText>
                     <p>Third Door is about the principle that everything in life has 3 doors. The first being the most
                         conventional door where everyone lines up and waits outside of.</p>
