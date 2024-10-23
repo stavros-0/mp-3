@@ -28,7 +28,7 @@ export default function Courses(){
     return(
         <>
         <ProfileContainer>
-            <img src={`public/webdev.webp`} alt={`CS 391`}/>
+            <img src={`webdev.webp`} alt={`CS 391`}/>
             <ImageText>
                 <p>CS 391 is a web development class that teaches a variety of programming languages for web
                     development.</p>
@@ -36,7 +36,7 @@ export default function Courses(){
             </ImageText>
         </ProfileContainer>
         <ProfileContainer>
-            <img src={`public/system.png`} alt={`CS 350`}/>
+            <img src={`system.png`} alt={`CS 350`}/>
             <ImageText>
                 <p>CS 350 is a course on distributed system and the coding assignments are in C. According to the
                     description of the class, The course discusses system design principles, performance analysis,
@@ -46,7 +46,7 @@ export default function Courses(){
             </ImageText>
         </ProfileContainer>
             <ProfileContainer>
-                <img src={`public/infosec.avif`} alt={`CS 357`}/>
+                <img src={`infosec.avif`} alt={`CS 357`}/>
                 <ImageText>
                     <p>CS 357 is a course on information security. According to the description of the class, The course
                         discusses basic concepts needed for understanding information security. Discusses

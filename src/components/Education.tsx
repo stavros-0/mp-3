@@ -38,7 +38,7 @@ export default function Education() {
     return (
         <>
         <ProfileContainer>
-            <img src={`public/bu.webp`} alt={`BU`}/>
+            <img src={`bu.webp`} alt={`BU`}/>
             <ImageText>
                 <p>Currently I am a senior at Boston University studying Computer Science</p>
                 <p>The Computer Science classes that I am currently taking are CS 350, CS 357, and CS 391.</p>
@@ -49,7 +49,7 @@ export default function Education() {
             </ImageText>
         </ProfileContainer>
         <ProfileContainer>
-            <img src={`public/umass.jpg`} alt={`UMASS`}/>
+            <img src={`umass.jpg`} alt={`UMASS`}/>
             <ImageText>
                 <p>For my freshman year I went to UMASS Amherst and I was a Finance Major. After taking some classes in Computer Science and doing research on the major I decided to switch my major.</p>
             </ImageText>

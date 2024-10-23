@@ -49,7 +49,7 @@ export default function Home(){
     return (
         <>
         <ProfileContainer>
-            <img src={`public/headshot2.png`} alt={"Stavros Headshot"}/>
+            <img src={`headshot2.png`} alt={"Stavros Headshot"}/>
             <ImageText>
                 <p>Welcome to my personal website. I am a Senior at Boston University studying Computer Science.</p>
                 <p>I am currently a Software Developer for Lemma Legal where I have been working for over a year.</p>
@@ -63,12 +63,12 @@ export default function Home(){
             </ImageText>
         </ProfileContainer>
             <HomeImages>
-                <img src="public/csec.jpeg" alt="Cyber Security"/>
-                <img src="public/slab.jpg" alt="Slabstox"/>
-                <img src="public/Lemma%20Legal.svg" alt="Lemma Legal"/>
-                <img src="public/cyprus.jpg" alt="Cyprus Beach"/>
-                <img src="public/bu.webp" alt="Image of BU"/>
-                <img src="public/liverpool.jpg" alt="Liverpool Logo"/>
+                <img src="csec.jpeg" alt="Cyber Security"/>
+                <img src="slab.jpg" alt="Slabstox"/>
+                <img src="Lemma%20Legal.svg" alt="Lemma Legal"/>
+                <img src="cyprus.jpg" alt="Cyprus Beach"/>
+                <img src="bu.webp" alt="Image of BU"/>
+                <img src="liverpool.jpg" alt="Liverpool Logo"/>
             </HomeImages>
 
         </>
