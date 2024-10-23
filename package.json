@@ -1,6 +1,7 @@
 {
   "name": "mp-3",
   "private": true,
+  "homepage": "/stavros-0/mp-3/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

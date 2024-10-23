@@ -1,6 +1,7 @@
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+// Styled Navigation component with styles for desktop and mobile views
 const Navigation = styled.nav`
     width: 30%;
     display: flex;
@@ -25,8 +26,6 @@ const Navigation = styled.nav`
         margin: 17%;
         text-align: center;
         background-color: white;
-        
-
     }
 
     a {
@@ -35,8 +34,10 @@ const Navigation = styled.nav`
         font-size: calc(6px + 1vw);
         text-align: center;
     }
+
+    // Media query for responsive design on smaller screens
     @media (max-width: 750px) {
-            width: 100%;
+        width: 100%;
 
         ul {
             display: flex;
@@ -58,34 +59,33 @@ const Navigation = styled.nav`
     }
 `;
 
-export default function Nav(){
+// Nav component rendering a list of navigation links using react-router-dom's Link component
+export default function Nav() {
     return (
-
-            <Navigation>
-                <ul>
-                    <li>
-                        <Link to={`/`}>Home</Link>
-                    </li>
-                    <li>
-                        <Link to={`/Books`}>Books</Link>
-                    </li>
-                    <li>
-                        <Link to={`/Projects`}>Projects</Link>
-                    </li>
-                    <li>
-                        <Link to={`/Courses`}>Courses</Link>
-                    </li>
-                    <li>
-                        <Link to={`/Education`}>Education</Link>
-                    </li>
-                    <li>
-                        <Link to={`/Experiences`}>Experiences</Link>
-                    </li>
-                    <li>
-                        <Link to={`/Interests`}>Interests</Link>
-                    </li>
-                </ul>
-            </Navigation>
-
+        <Navigation>
+            <ul>
+                <li>
+                    <Link to={`/`}>Home</Link>
+                </li>
+                <li>
+                    <Link to={`/Books`}>Books</Link>
+                </li>
+                <li>
+                    <Link to={`/Projects`}>Projects</Link>
+                </li>
+                <li>
+                    <Link to={`/Courses`}>Courses</Link>
+                </li>
+                <li>
+                    <Link to={`/Education`}>Education</Link>
+                </li>
+                <li>
+                    <Link to={`/Experiences`}>Experiences</Link>
+                </li>
+                <li>
+                    <Link to={`/Interests`}>Interests</Link>
+                </li>
+            </ul>
+        </Navigation>
     )
 }
