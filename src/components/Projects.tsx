@@ -28,7 +28,7 @@ const ProfileContainer = styled.div`
         width: 40%;
         height: auto;
         margin-right: 5%;
-        max-width: 50%;
+        
         filter: drop-shadow(5px 5px);
         margin-bottom: 2%;
 
@@ -67,7 +67,7 @@ export default function Projects() {
                 <p>write their own blog, and explore blogs from the explore page.</p>
         </ImageText>
         <ProfileContainer>
-            <img src={`public/Screenshot%202024-09-20%20at%2010.21.39%E2%80%AFAM.png`} alt={`Blog`}/>
+            <img src={`Screenshot%202024-09-20%20at%2010.21.39%E2%80%AFAM.png`} alt={`Blog`}/>
         </ProfileContainer>
         </>
     )
