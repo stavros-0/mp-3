@@ -39,7 +39,7 @@ export default function Interests() {
     return(
         <>
             <ProfileContainer>
-                <img src={`public/csec.jpeg`} alt={`Cyber Security`}/>
+                <img src={`csec.jpeg`} alt={`Cyber Security`}/>
                 <ImageText>
                     <p>One area that I would like to explore after my undergraduate degree is Cyber Security. I think it
                         is an important field to work in for the future, and ethical hacking is something that interests
@@ -47,7 +47,7 @@ export default function Interests() {
                 </ImageText>
             </ProfileContainer>
             <ProfileContainer>
-                <img src={`public/software%20eng.jpg`} alt={`Software Engineering`}/>
+                <img src={`software%20eng.jpg`} alt={`Software Engineering`}/>
                 <ImageText>
                     <p>Another area that I would like to explore after college is Software Engineering. I like working
                         on APIs and doing backend development.</p>
