@@ -49,9 +49,9 @@ function Root() {
             case '/Projects':
                 return { subtitle: 'Projects', style: { backgroundColor: 'lightcoral' } };
             case '/Courses':
-                return { subtitle: 'Courses', style: { backgroundColor: 'lightgrey' } };
+                return { subtitle: 'Courses', style: { backgroundColor: 'black' } };
             case '/Education':
-                return { subtitle: 'Education', style: { backgroundColor: 'lightpurple' } };
+                return { subtitle: 'Education', style: { backgroundColor: 'purple' } };
             case '/Interests':
                 return { subtitle: 'Interests', style: { backgroundColor: 'lightsteelblue' } };
         }

@@ -4,7 +4,7 @@ const ProfileContainer = styled.div`
     flex-direction: row;
     align-items: center;
     img {
-        min-width: 25%;
+        max-width: 25%;
         height: auto;
         margin-right: 5%;
         filter: drop-shadow(5px 5px);
