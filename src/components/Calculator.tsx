@@ -90,13 +90,13 @@ export default function Calculator() {
                     type="number"
                     value={firstNumber}
                     onChange={(e) => setFirstNumber(e.target.value)}
-                    placeholder="First Number"
+                    
                 />
                 <Inputs
                     type="number"
                     value={secondNumber}
                     onChange={(e) => setSecondNumber(e.target.value)}
-                    placeholder="Second Number"
+                    
                 />
             </InputContainer>
 
